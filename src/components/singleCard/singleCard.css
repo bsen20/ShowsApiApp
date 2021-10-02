@@ -1,0 +1,66 @@
+.singleCard {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  background-color: #444;
+  color: white;
+  border-radius: 10px;
+}
+.leftImage {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.leftImage > img {
+  height: 95%;
+  width: 95%;
+  object-fit: fill;
+  border-radius: 10px;
+}
+.rightSection {
+  flex: 5;
+}
+h2 {
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 24px;
+}
+.smallDetail {
+  display: flex;
+  justify-content: space-around;
+}
+.singleCardRating {
+  /* position: absolute;
+  bottom: 70px; */
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.ratingIcon {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #48cfae;
+}
+a {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #48cfae;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #48bfcf;
+  transition: all 0.3s;
+  letter-spacing: 2px;
+}
+.description {
+  font-size: 14px;
+}

@@ -1,0 +1,9 @@
+.headerItem {
+  font-size: 16px;
+  padding: 10px;
+  transition: all;
+  transition-delay: 0.2s;
+}
+.headerItem:hover {
+  border-bottom: 2px solid #48cfae;
+}

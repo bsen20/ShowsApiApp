@@ -1,0 +1,10 @@
+.details {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 60px);
+}
+.middle {
+  margin: 30px;
+  display: flex;
+  justify-content: space-around;
+}
